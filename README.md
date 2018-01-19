@@ -1,16 +1,14 @@
-# Pixel Art Maker Project
+# Wu Grid Art
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Details](#details)
+* [Try](#try)
 
-## Instructions
+## Details
 
-To get started, open `designs.js` and start building out the app's functionality.
+This is the final project for the Grow with Google Udacity Scholarship: Front-End Web Development.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Try
 
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+davidpwu.github.io/wugridart
