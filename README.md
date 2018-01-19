@@ -11,4 +11,4 @@ This is the final project for the Grow with Google Udacity Scholarship: Front-En
 
 ## Try
 
-<a href="davidpwu.github.io/wugridart">davidpwu.github.io/wugridart</a>
+<a href="https://davidpwu.github.io/wugridart">davidpwu.github.io/wugridart</a>
