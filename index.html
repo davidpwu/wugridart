@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="https://source.unsplash.com/iMdsjoiftZo">
+    <title>Wu Grid Art</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="gridArtStyles.css">
+</head>
+<body>
+    <h1>Wu Grid Art</h1>
+    <hr class="rainbow">
+    <div class="container">
+
+        <div class="row">
+            <div id="options" class="col-sm-2 col-xs-12">
+                <h2>Choose Grid Size</h2>
+                <div class="row">
+                    <form id="sizePicker">
+                        <div class="col-sm-12">
+                            Grid Height:
+                            <input type="number" id="input-height" name="height" min="1" value="1" style="border-radius:5px" max="300">
+                        </div>
+                        <div class="col-sm-12">
+                            Grid Width:
+                            <input type="number" id="input-width" name="width" min="1" value="1" style="border-radius:5px" max="300">
+                        </div>
+                        <div class="col-sm-12">
+                            <button type="button" id="push-button" style="border-radius:5px; background-color: white;">New Size</button>
+                        </div>
+                    </form>
+                </div>
+                <h2>Pick A Color</h2>
+                <input type="color" id="colorPicker" style="background-color: white;">
+            </div>
+            <div id="design-canvas" class="col-sm-10 col-xs-12">
+                <h2>Design Canvas</h2>
+                <table id="pixel-canvas"></table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2 col-xs-12">
+                <iframe src="https://open.spotify.com/embed/track/2I7G4jUnwkLYwf0hugXU6O" width="300" height="200" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+            <div class="col-sm-10 col-xs-12"></div>
+        </div>
+
+    </div>
+    <script src="designs.js"></script>
+</body>
+</html>
