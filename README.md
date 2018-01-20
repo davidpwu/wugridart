@@ -7,7 +7,7 @@
 
 ## Details
 
-This is the final project for the Grow with Google Udacity Scholarship: Front-End Web Development.
+This is the final project for phase 1 of the Grow with Google Udacity Scholarship: Front-End Web Development.
 
 ## Try
 
