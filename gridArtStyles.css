@@ -2,10 +2,14 @@ body {
     text-align: center;
     font-family: Lato, Helvetica, sans-serif;
     background: rgba(0,0,0,0.05);
-    background-image: url(https://source.unsplash.com/SJSpo9hQf7s);
+    background: #BE93C5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    /* background-position: */
+    /* background-image: url(https://source.unsplash.com/SJSpo9hQf7s);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
 }
 html {
 	height: 100%;
