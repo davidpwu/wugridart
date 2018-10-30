@@ -1,12 +1,12 @@
 body {
     text-align: center;
     font-family: Lato, Helvetica, sans-serif;
-    background: rgba(0,0,0,0.05);
+    background: rgba(255,221,237,0.7);
       
-    background-image: url(https://source.unsplash.com/SJSpo9hQf7s);
-    background-size: cover;
+    /* background-image: url(https://source.unsplash.com/SJSpo9hQf7s); */
+    /* background-size: cover;
     background-attachment: fixed;
-    background-position: center; 
+    background-position: center;  */
 }
 html {
 	height: 100%;
@@ -17,7 +17,7 @@ html {
     color: #FFF;
 }
 h1 {
-    font-family: Monoton;
+    font-family: "Berkshire Swash", cursive;
     font-size: 50px;
     margin: 0.2em;
 }
